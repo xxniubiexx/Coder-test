@@ -1,11 +1,21 @@
-html {
-	font-size: 16px;
-}
-
-h1{
-    color: sandybrown;
-    }
+@font-face {
+	font-family: 'FallenDreamer';
+	src: url('../coder-test/fuente/FallenDreamer.ttf') format("truetype");
+	font-weight: unset;
+	font-style: unset;
+ }
+body {
+	background-image: url('https://i.pinimg.com/564x/bb/b1/5c/bbb15cd3fdfdad1beb6c60abb9fc29ca.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom;
+  }
+h1{	
+	font-family: FallenDreamer; 
+	color: sandybrown;}
+	
 h2{
+	font-family: FallenDreamer; 
     color:rebeccapurple;
 }
 
@@ -21,10 +31,14 @@ h2{
 	z-index: 100;
 }
 .icon {
+	color: white;
+	text-decoration: none;
+	padding: .1rem;
 	transition: all .5s;
 }
+
 .icon:hover {
-	padding-right: 1re m;
+	padding-right: .6rem;
 	border-radius: 1rem 0 0 1rem;
-	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42)
 }
