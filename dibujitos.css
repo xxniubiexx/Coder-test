@@ -4,12 +4,14 @@
 	font-weight: unset;
 	font-style: unset;
  }
+
 body {
 	background-image: url('https://i.pinimg.com/564x/bb/b1/5c/bbb15cd3fdfdad1beb6c60abb9fc29ca.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: bottom;
   }
+
 h1{	
 	font-family: FallenDreamer; 
 	color: sandybrown;}
@@ -18,7 +20,6 @@ h2{
 	font-family: FallenDreamer; 
     color:rebeccapurple;
 }
-
 
 .social-bar {
 	position: fixed;
@@ -30,6 +31,7 @@ h2{
 	align-items: flex-end;
 	z-index: 100;
 }
+
 .icon {
 	color: white;
 	text-decoration: none;
